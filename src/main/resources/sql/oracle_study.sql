@@ -16,6 +16,9 @@ values
 
 select * from tbl_profile;
 
+drop table tbl_emp;
+drop table tbl_webboard;
+
 
 
 
