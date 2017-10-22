@@ -124,7 +124,7 @@ public class WebBoardController {
 		
 		log.info(""+ pageable);
 		log.info(""+ result);
-		
+
 		log.info("TOTAL PAGE NUMBER: " + result.getTotalPages());
 		
 		
