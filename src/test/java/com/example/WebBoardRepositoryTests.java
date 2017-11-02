@@ -43,6 +43,21 @@ public class WebBoardRepositoryTests {
 		});
 
 	}
+	
+	@Test
+	public void insertBoardDummies1() {
+
+		
+			WebBoard board = new WebBoard();
+
+			board.setTitle("Sample Board Title " );
+			board.setContent("Content Sample ..." + " of Board ");
+			board.setWriter("user0" );
+
+			repo.save(board);
+		
+
+	}
 
 	@Test
 	public void testList1() {

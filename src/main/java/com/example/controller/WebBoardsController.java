@@ -1,8 +1,5 @@
 package com.example.controller;
 
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -27,7 +24,6 @@ import lombok.extern.java.Log;
 @Log
 public class WebBoardsController {
 
-	
 	@Autowired
 	private WebBoardRepository repo;
 	
