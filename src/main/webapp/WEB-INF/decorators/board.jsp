@@ -25,8 +25,29 @@
 </head>
 <body class="container">
 <header class="page-header">
-Header
+header
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">WebSiteName</a>
+	    </div>
+	    <ul class="nav navbar-nav">
+	      <li class="active"><a href="#">Home</a></li>
+	      <li><a href="http://localhost:8080/depts/list">Depts list</a></li>
+	      <li><a href="http://localhost:8080/emps/list">Emps list</a></li>
+	      <li><a href="http://localhost:8080/boards/list">Boards list</a></li>
+	      <li><a href="http://localhost:8080/bootstrap/list">Bootstrap list</a></li>
+	      <li><a href="http://localhost:8080/board/list">Board list</a></li>
+	    </ul>
+	  </div>
+	</nav>
 </header>
+
+	<div class="page-header animated bounce jumbotron">
+		<h1>
+			Boot Project <small>Web Board</small>
+		</h1>
+	</div>
 
 <section class="panel panel-primary">
 		<sitemesh:write property="body"/>
